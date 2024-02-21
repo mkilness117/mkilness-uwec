@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    background-color: rgb(64, 73, 61)
+}
+header{
+    background-image:url(images/trees.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1{
+    display: none;
+}
+header>img{
+    width: 23rem;
+    max-width: 100%;
+}
+header{
+    padding: 1rem;
+}
+nav>a{
+    background-color: rgb(245, 245, 245);
+    color: rgb(15, 15, 45);
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: inline-block;
+    margin: 1rem;
+}
+nav>a:hover{
+    background-color: rgb(200, 200, 205)
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    use justify-content: ;
+}
+nav{
+    flex-basis: 100%;
+    text-align: center;
+}
