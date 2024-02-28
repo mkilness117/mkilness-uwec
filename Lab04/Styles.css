@@ -15,7 +15,7 @@ vertical-align: top;}
 .jellies, .whales, .creatures{background-color: rgb(19,107,224);
 padding: 1rem;
 display: inline-block;
-margin: 5rem;
+margin: 5rem;/*Should be .5rem*/
 vertical-align: top;}
 .jellies{width: 29%;}
 img{max-width: 100%;}
