@@ -18,3 +18,14 @@ a h1{
     ul{color:red}
     a{color:red}
     p{font-size:2rem;}
+    h1{ font-family: 'Courier New', Courier, monospace;}
+    h2{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    header{
+        padding: 2rem;
+    }
+    p{ 
+        margin: 2rem;
+    }
+    ul{ 
+        padding: 1rem;
+    }
