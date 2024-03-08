@@ -50,5 +50,51 @@ main img{
 .about-me h2{
     background-image: me.jpg;
     background-size cover;
-    padding: 10rem 0 10 rem 4rem.
+    padding: 10rem 0 10 rem 4rem.;
+    text-shadow: 2px 2px 2px #0000008f;
+}
+.gallery h2{
+    background-color: rgb(245, 245, 245);
+    color: rgb(15, 15, 46);
+    padding: 2rem 4rem;
+}
+@media (min-width:1100px){
+    nav{ 
+        flex-basis: unset;
+    }
+    header{
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .about-me{
+        display: flex;
+    }
+    .about-me h2{
+       flex-basis: 50%; 
+    }
+    h2{
+        padding-left: 4rem;
+    }
+    .gallery{
+        display: flex;
+        flex-flow: column wrap;
+        max-height: 78rem;
+    }
+    .gallery h2{
+        margin: 5rem;
+    }
+    .gallery img{
+        width: 32%;
+        margin: .5rem;
+    }
+}
+@media (min-width:1500px){
+    .gallery{
+        max-height: 120rem;
+    }
+}
+@media (min-width:2300px){
+    .gallery{
+        max-height: 150rem;
+    }
 }
