@@ -15,3 +15,61 @@ header>h1{
     margin: 1rem;
     vertical-align: top;
 }
+header>nav>a{
+    background-color: #fff;
+    color: #275218;
+    text-decoration: none;
+    padding: 1rem;
+}
+header>nav{
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 1rem;
+    padding-left: 1 rem;
+}
+header>nav>a:hover{
+    background-color: #275218;
+    color: #fff;
+    border: 1px solid #fff;
+}
+header>nav>a{
+    border: 1px solid transparent;
+}
+main{
+    background-color: #ebebeb;
+    padding: 1rem;
+    max-width: 60rem;
+    margin: 1rem auto;
+}
+h2{
+    background-color: #275218;
+    color: #fff;
+    padding: 1rem;
+    margin: 0 0 1rem;
+}
+article{
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+article>img{
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+article>.image-only{
+    float: none;
+    margin: 0;
+    width: 100%;
+}
+article>footer{
+    font-style: italic;
+    font-weight: 900;
+}
+article>footer span{
+    color: #275218;
+    font-size: 1.25rem;
+}
+body>footer>a{
+    color: #fff;
+    margin: 1rem;
+}
