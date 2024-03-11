@@ -34,7 +34,7 @@ nav>a:hover{
 header{
     display: flex;
     flex-wrap: wrap;
-    use justify-content: ;
+    justify-content: center;
 }
 nav{
     flex-basis: 100%;
@@ -48,9 +48,9 @@ main img{
     margin: .5rem 0;
 }
 .about-me h2{
-    background-image: me.jpg;
-    background-size cover;
-    padding: 10rem 0 10 rem 4rem.;
+    background-image: url(images/me.jpg);
+    background-size: cover;
+    padding: 10rem 0 10rem 4rem;
     text-shadow: 2px 2px 2px #0000008f;
 }
 .gallery h2{

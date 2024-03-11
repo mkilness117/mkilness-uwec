@@ -1,0 +1,15 @@
+body{
+    background-color: #e5d3bd;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+    font-family: Palatino Linotype;
+    
+    
+}
+header a{
+    color: black;
+    text-decoration: none;
+}
