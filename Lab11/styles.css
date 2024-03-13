@@ -13,3 +13,103 @@ header a{
     color: black;
     text-decoration: none;
 }
+.woman{
+    width: 15rem;
+    vertical-align: middle;
+    margin-top: 10%;
+}
+.story div{
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    margin-left: 5%;
+    
+}
+.pint{
+    width: 100%;
+    
+}
+.goosehouse{
+    width: 50rem;
+    margin-left: 5%;
+}    
+.fish{
+    width: 100%;
+  
+}
+.sausages{
+    width: 10rem;
+}
+.banngers{
+    width: 10rem;
+}
+.food{
+    display: inline-block;
+    width: 30rem;
+    margin-left: 10%;
+}
+.food2{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 5rem;
+}
+.dessert{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 5rem;
+    width: 40rem;
+}
+.spotted{
+    width: 40%;
+}
+.apple{
+    width: 40%;
+}
+.food3{
+    display: inline-block;
+    margin-top: 10rem;
+}
+.menu{
+    display: inline-block;
+    margin-left: 3rem;
+}
+.title3{
+    display: inline-block;
+    margin-left: 3rem;
+}
+.drinks{
+    display: inline-block;
+    margin-left: 3rem;
+}
+.drinks2{
+    display: inline-block;
+    margin-left: 3rem;
+}
+.drinks3{
+    margin-left: 10%;
+    margin-top: 5rem;
+    width: 40rem;
+    flex-wrap: wrap;
+}
+.Belhaven{
+    width: 40%;
+}
+.Cognac{
+    width: 40%;
+}
+.sidecar{
+    width: 40%;
+}
+.menu ol, .title3 ol, .drinks ol, .drinks2 ol{
+    background-color: #f7f2da;
+    border:3px solid black;
+    padding: 2rem;
+}
+h2{
+    margin-left: 3rem;
+}
+.story p{
+    background-color: #f7f2da;
+    border:3px solid black;
+    padding: 1rem;
+}
