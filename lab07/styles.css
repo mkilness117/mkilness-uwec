@@ -64,22 +64,20 @@ main img{
     }
     header{
         flex-wrap: nowrap;
-        justify-content: flex-start;/*Change flex-start to space-between. This will force the logo to the left and the nav to the right.*/
-        /*Add align-items:flex-end; this will line up the logo and nav along the bottom of the header*/
+        justify-content: space-between; 
+        align-items:flex-end;
     }
     .about-me{
         display: flex;
     }
     .about-me h2{
-       flex-basis: 50%; /*This should be 40%*/
-       /*Add background-position:center;*/
+       flex-basis: 40%; 
+       background-position: center;
     }
-    /*Missing 
     .about-me div{
-        flex-basis:50%;
-        margi-left:2rem;
+        flex-basis: 50%;
+        margin-left: 2rem;
     }
-    */
     h2{
         padding-left: 4rem;
     }
@@ -89,7 +87,7 @@ main img{
         max-height: 78rem;
     }
     .gallery h2{
-        margin: 5rem;/* Should be .5rem */
+        margin: .5rem;
     }
     .gallery img{
         width: 32%;
