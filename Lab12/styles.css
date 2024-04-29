@@ -38,16 +38,19 @@ input[type=text], input[type=email], input[type=date], input[type=number], input
     padding: .5rem;
     border-radius: .25rem;
 }
+/*Should be input[type=color]*/
 color{
     width: 4rem;
     height: 4rem;
     border-radius: 2rem;
 }
+/*The hover should actually be focus*/
 input:hover[type=text], input:hover[type=email], input:hover[type=date], input:hover[type=number], input:hover[type=color]{
     background-color: black;
 color: white;
 outline: none;
 }
+/*input[type=reset], input[type=submit]*/
 Reset, Submit{
     font-family:Eater, cursive;
     font-size: 1.5rem;
@@ -56,9 +59,11 @@ Reset, Submit{
     border: 3px solid yellowgreen;
     margin: 1rem 2rem 0 0;
 }
+/*input[type=submit]*/
 Submit{
     background-color: yellowgreen;
 }
+/*input[type=reset]*/
 Reset{
     background-color: black;
     color: yellowgreen;
